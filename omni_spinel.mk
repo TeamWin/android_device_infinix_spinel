@@ -21,16 +21,16 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from Infinix-X627STU device
-$(call inherit-product, device/infinix/Infinix-X627STU/device.mk)
+# Inherit from spinel device
+$(call inherit-product, device/infinix/spinel/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Infinix-X627STU
-PRODUCT_NAME := omni_Infinix-X627STU
+PRODUCT_DEVICE := spinel
+PRODUCT_NAME := omni_spinel
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X627
 PRODUCT_MANUFACTURER := infinix

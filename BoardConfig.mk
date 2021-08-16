@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/Infinix-X627STU
+DEVICE_PATH := device/infinix/spinel
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -61,8 +61,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X627STU
-TARGET_KERNEL_CONFIG := Infinix-X627STU_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/spinel
+TARGET_KERNEL_CONFIG := spinel_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6761

@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_Infinix-X627STU-userdebug
-add_lunch_combo omni_Infinix-X627STU-eng
+add_lunch_combo omni_spinel-userdebug
+add_lunch_combo omni_spinel-eng

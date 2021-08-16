@@ -18,6 +18,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE), Infinix-X627STU)
+ifeq ($(TARGET_DEVICE), spinel)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

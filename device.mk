@@ -16,5 +16,4 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/infinix/Infinix-X627STU
-
+LOCAL_PATH := device/infinix/spinel

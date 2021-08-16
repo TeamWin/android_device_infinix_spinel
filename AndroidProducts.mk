@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Infinix-X627STU.mk
+     $(LOCAL_DIR)/omni_spinel.mk
