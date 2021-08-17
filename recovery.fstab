@@ -40,3 +40,5 @@
 /dtbo               emmc      /dev/block/platform/bootdevice/by-name/dtbo                           flags=display="Dtbo";backup=1;flashimg=1;
 /vbmeta             emmc      /dev/block/platform/bootdevice/by-name/vbmeta                         flags=display="Vbmeta";
 /tkv                emmc      /dev/block/platform/bootdevice/by-name/tkv                            flags=display="Tkv";
+/external_sd        auto      /dev/block/mmcblk1p1                                                  flags=display="MicroSD";storage;wipeingui;removable;settingsstorage;backup=0;encryptable=userdata
+/usbotg             auto      /dev/block/sda1                                                       flags=display="USB OTG";backup=0;wipeingui;storage;removable
