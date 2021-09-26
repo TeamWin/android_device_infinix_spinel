@@ -1,10 +1,7 @@
 # mount point       fstype    device                                                                flags
-/system             ext4      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";backup=1;
+/system             auto      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";backup=1;
 /system_image       emmc      /dev/block/platform/bootdevice/by-name/system                         flags=display="System image";backup=1;flashimg=1;
-/system             ext4      /dev/block/platform/bootdevice/by-name/system                         flags=display="System";backup=1;
-/system_image       emmc      /dev/block/platform/bootdevice/by-name/system                         flags=display="System image";backup=1;flashimg=1;
-/system_image       emmc      /dev/block/platform/bootdevice/by-name/system                         flags=display="System image";backup=1;flashimg=1;
-/vendor             ext4      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor";backup=1;
+/vendor             auto      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor";backup=1;
 /vendor_image       emmc      /dev/block/platform/bootdevice/by-name/vendor                         flags=display="Vendor image";backup=1;flashimg=1;
 /data               ext4      /dev/block/platform/bootdevice/by-name/userdata                       flags=display="Data";
 /cache              ext4      /dev/block/platform/bootdevice/by-name/cache                          flags=display="Cache";
@@ -13,4 +10,3 @@
 /boot               emmc      /dev/block/platform/bootdevice/by-name/boot                           flags=display="Boot";backup=1;flashimg=1;
 /recovery           emmc      /dev/block/platform/bootdevice/by-name/recovery                       flags=display="Recovery";backup=1;flashimg=1;
 /external_sd        auto      /dev/block/mmcblk1p1                                                  flags=display="MicroSD";
-/usbotg             auto      /dev/block/sda1                                                       flags=display="USB-OTG";
