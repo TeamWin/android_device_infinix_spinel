@@ -24,7 +24,7 @@ on property:ro.debuggable=0
     # set charging free due to it wait for USB activation
     start adbd
 
-on property:sys.usb.ffs.ready=1
+on property:sys.usb.ffs.ready=0
     write /config/usb_gadget/g1/UDC "none"
     rm /config/usb_gadget/g1/configs/b.1/f1
     rm /config/usb_gadget/g1/configs/b.1/f2
